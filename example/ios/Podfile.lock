@@ -1894,7 +1894,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
   - react-native-idmission-sdk (11.1.19):
-    - IDentityMediumSDK2.0
+    - IDentityMediumSDK2.0 (= 11.1.19.2.5)
     - React-Core
   - react-native-safe-area-context (5.8.0):
     - boost
@@ -3029,7 +3029,7 @@ SPEC CHECKSUMS:
   React-logger: b8483fa08e0d62e430c76d864309d90576ca2f68
   React-Mapbuffer: 7b72a669e94662359dad4f42b5af005eb24b4e83
   React-microtasksnativemodule: cdc02da075f2857803ed63f24f5f72fc40e094c0
-  react-native-idmission-sdk: 16ac0c3e30a205160159d029594c3a7d58dbbfa5
+  react-native-idmission-sdk: 673c2d0b16da2ad1ebd465e7dcbe54c3cafaba92
   react-native-safe-area-context: ebd2c2ece5e6e650a6963184039ec8cfd8960d86
   React-NativeModulesApple: a2c3d2cbec893956a5b3e4060322db2984fff75b
   React-networking: 3f98bd96893a294376e7e03730947a08d474c380
