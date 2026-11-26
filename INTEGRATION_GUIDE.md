@@ -59,7 +59,7 @@ allprojects {
             name "GitLab"
             credentials(HttpHeaderCredentials) {
                 name = "Private-Token"
-                value = "WESesyuSD9fQeqNEyig6"
+                value = "<GitLab Token>"
             }
             authentication {
                 header(HttpHeaderAuthentication)
@@ -441,7 +441,7 @@ If your app was set up from the zip files (`ReactNativeSDK2AndroidResources.zip`
 Rebuild the app after installing (`npm run android` / `npm run ios`). On iOS, run `pod install` in `ios/` first. Autolinking only takes effect on a fresh native build.
 
 ### `Could not resolve com.idmission.sdk2:idmission-mediumsdk`
-The GitLab Maven repository or credentials are missing from your project-level `android/build.gradle`. Confirm the `Private-Token` value matches `WESesyuSD9fQeqNEyig6` (Step 2a).
+The GitLab Maven repository or credentials are missing from your project-level `android/build.gradle`. Confirm the `Private-Token` value matches `<GitLab Token>` (Step 2a).
 
 ### `Manifest merger failed ... uses-sdk:minSdkVersion`
 Your app's `minSdkVersion` is below 26. Raise it to 26 (Step 2b).
